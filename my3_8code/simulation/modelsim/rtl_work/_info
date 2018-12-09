@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim
+vmy3_8code
+Z1 !s110 1544337792
+!i10b 1
+!s100 MVO[f<>S2jW_PKbAUnghl1
+Ik4QCXLU[^a1l]:JTUe1Fb2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544337732
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/my3_8code.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/my3_8code.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544337792.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/my3_8code.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/my3_8code.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code
+Z6 tCvgOpt 0
+vmy3_8code_vlg_tst
+R1
+!i10b 1
+!s100 f@>nDSzfZBe6mj2HX;nKV2
+I0SP@o[z55>bEY0GO;o86Y2
+R2
+R0
+w1544337658
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim/my3_8code.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim/my3_8code.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim/my3_8code.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim/my3_8code.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/my3_8code/simulation/modelsim
+R6

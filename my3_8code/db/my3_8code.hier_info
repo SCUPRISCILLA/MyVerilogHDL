@@ -1,0 +1,14 @@
+|my3_8code
+a => Decoder0.IN0
+b => Decoder0.IN1
+c => Decoder0.IN2
+l[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+l[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
