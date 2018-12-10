@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim
+vBCD_counter
+Z1 !s110 1544441132
+!i10b 1
+!s100 FJ@dNamOZJn@NBbW>SI_n3
+I@`3]=i0Wcgoz8Tz7USXPV1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544440436
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/BCD_counter.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/BCD_counter.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544441132.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/BCD_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/BCD_counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter
+Z6 tCvgOpt 0
+n@b@c@d_counter
+vBCD_counter_vlg_tst
+R1
+!i10b 1
+!s100 QEJDNA8aOP?kLFdHjKdOf0
+IWNQ:3jS0m>DhzaFH@caAa0
+R2
+R0
+w1544441095
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim/BCD_counter.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim/BCD_counter.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim/BCD_counter.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim/BCD_counter.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/BCD_counter/simulation/modelsim
+R6
+n@b@c@d_counter_vlg_tst
