@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim
+vcounter
+Z1 !s110 1544418794
+!i10b 1
+!s100 PECWZjZmM2MaZmRZP?lJD3
+ICjjfazO7VUmzIZ7kc2PV_1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544416690
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/counter.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/counter.v
+L0 39
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544418794.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/counter.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip
+Z6 tCvgOpt 0
+vcounter_vlg_tst
+R1
+!i10b 1
+!s100 c@HE@0`>>]=^WJZInT3NX3
+ImlB>YGQn:5f^9_;CU7jA>1
+R2
+R0
+w1544417873
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim/counter.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim/counter.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim/counter.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim/counter.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/counter_ip/simulation/modelsim
+R6
