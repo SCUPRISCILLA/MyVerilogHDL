@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim
+vLED_1S_50M
+Z1 !s110 1544452517
+!i10b 1
+!s100 ^]?A<ab7HQ]V64`?5f[7Q1
+I1mb2MngTI>V<h[HaYFZh33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544451984
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/LED_1S_50M.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/LED_1S_50M.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544452517.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/LED_1S_50M.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/LED_1S_50M.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M
+Z6 tCvgOpt 0
+n@l@e@d_1@s_50@m
+vLED_1S_50M_vlg_tst
+R1
+!i10b 1
+!s100 A3?<:;R5MezATkm;F;=AC0
+I]M80K<lB2ma16I8f@7=F31
+R2
+R0
+w1544452306
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim/LED_1S_50M.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim/LED_1S_50M.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim/LED_1S_50M.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim/LED_1S_50M.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/LED_1S_50M/simulation/modelsim
+R6
+n@l@e@d_1@s_50@m_vlg_tst
