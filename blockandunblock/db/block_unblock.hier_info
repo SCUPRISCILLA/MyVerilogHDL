@@ -1,0 +1,12 @@
+|block_unblock
+clk => q[0]~reg0.CLK
+clk => q[1]~reg0.CLK
+rst_n => q[0]~reg0.ACLR
+rst_n => q[1]~reg0.ACLR
+a => Add0.IN1
+b => Add0.IN2
+c => Add1.IN4
+q[0] << q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q[1] << q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

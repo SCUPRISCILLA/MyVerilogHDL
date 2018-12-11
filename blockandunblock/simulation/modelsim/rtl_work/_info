@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim
+vblock_unblock
+Z1 !s110 1544509894
+!i10b 1
+!s100 MUnEaH6>>ZgXh][OPmC@D1
+IGCi>^LI<goNJj=i;zCR7l0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544508270
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/block_unblock.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/block_unblock.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544509894.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/block_unblock.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/block_unblock.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock
+Z6 tCvgOpt 0
+vblock_unblock_vlg_tst
+R1
+!i10b 1
+!s100 I@SdeX0OaQE:_:gSFfAKP2
+IW]hDBNHN0QXPcR0P7[eHR3
+R2
+R0
+w1544509833
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim/block_unblock.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim/block_unblock.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim/block_unblock.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim/block_unblock.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/blockandunblock/simulation/modelsim
+R6
