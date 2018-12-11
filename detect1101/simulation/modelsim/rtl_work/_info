@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim
+vDetect1101
+Z1 !s110 1544537231
+!i10b 1
+!s100 SSRRK@A@5iTi35[2GnDo12
+IgSNi8;LQEgHn8VEX=XG]H3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544536197
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/Detect1101.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/Detect1101.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544537231.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/Detect1101.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/Detect1101.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101
+Z6 tCvgOpt 0
+n@detect1101
+vDetect1101_vlg_tst
+R1
+!i10b 1
+!s100 WELSl4JI=JD`d2:_fPLH22
+I]12ob?lbVl^>TO;PgFKo?0
+R2
+R0
+w1544537169
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim/Detect1101.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim/Detect1101.vt
+L0 29
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim/Detect1101.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim/Detect1101.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/detect1101/simulation/modelsim
+R6
+n@detect1101_vlg_tst

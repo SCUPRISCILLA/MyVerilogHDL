@@ -1,0 +1,7 @@
+
+State Machine - |Detect1101|state
+Name state.wait_1c state.wait_0 state.wait_1b state.wait_1a 
+state.wait_1a 0 0 0 0 
+state.wait_1b 0 0 1 1 
+state.wait_0 0 1 0 1 
+state.wait_1c 1 0 0 1 

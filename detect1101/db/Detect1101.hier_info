@@ -1,0 +1,15 @@
+|Detect1101
+clk => q~reg0.CLK
+clk => state~1.DATAIN
+rst_n => q~reg0.ACLR
+rst_n => state~3.DATAIN
+data => q.OUTPUTSELECT
+data => state.DATAB
+data => state.DATAB
+data => Selector0.IN3
+data => state.DATAB
+data => Selector0.IN1
+data => Selector0.IN2
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

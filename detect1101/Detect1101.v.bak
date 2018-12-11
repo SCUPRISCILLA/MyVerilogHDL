@@ -1,0 +1,52 @@
+module Detect1101(clk, rst_n, data, q);
+	input clk;
+	input rst_n;
+	input data;
+	
+	output reg q;
+	
+	localparam
+		wait_1a = 4'b0001;
+		wait_1b = 4b'0010;
+		wait_0 = 4b'0100;
+		wait_1c = 4b'1000;
+	
+	reg[3:0] state;
+	
+	always@(posedge clk, negedge rst_n)
+		if(!rst_n)
+			begin
+			q <= 1'b0;
+			state <= wait_1a;
+			end
+		else begin
+			case(state)
+				wait_1a: 
+					if(data == 1)
+						state <= wait_1b;
+					else
+						state <= wait_1a;
+				
+				wait_1b:
+					if(data == 1)
+						state <= wait_0;
+					else
+						state <= wait_1a;
+				wait_0:
+					if(data == 0)
+						state <= wait_1c;
+					else
+						state <= wait_1a;
+				wait_1c:
+					if(data == 1)
+						begin
+						q <= ~q;
+						state <= wait_1a;
+						end
+					else
+						state <= wait_1a;
+				default: state <= wait_1a;
+			endcase
+			
+						
+endmodule
