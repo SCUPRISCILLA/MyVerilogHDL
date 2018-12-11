@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim
+vLED_BLINK
+Z1 !s110 1544502997
+!i10b 1
+!s100 `G<Me`=oTzM0GeolgBJ552
+I8@Z^`?6k]0>@nbEN791zi3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544502506
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544502997.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK
+Z6 tCvgOpt 0
+n@l@e@d_@b@l@i@n@k
+vLED_BLINK_vlg_tst
+R1
+!i10b 1
+!s100 2CCReANf:]L5Cnamd5lF11
+InUh0E6Y>@?h?;0_0J5MX@3
+R2
+R0
+w1544502988
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt
+L0 28
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim
+R6
+n@l@e@d_@b@l@i@n@k_vlg_tst

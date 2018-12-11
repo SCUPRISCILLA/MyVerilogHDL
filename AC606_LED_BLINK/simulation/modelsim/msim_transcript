@@ -1,0 +1,50 @@
+# Reading D:/APPLICATION/FPGA_LITE/modelsim_ase/tcl/vsim/pref.tcl
+# do LED_BLINK_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/APPLICATION/FPGA_LITE/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK {D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:37 on Dec 11,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK" D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v 
+# -- Compiling module LED_BLINK
+# 
+# Top level modules:
+# 	LED_BLINK
+# End time: 12:36:37 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim {D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:36:37 on Dec 11,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim" D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt 
+# -- Compiling module LED_BLINK_vlg_tst
+# 
+# Top level modules:
+# 	LED_BLINK_vlg_tst
+# End time: 12:36:37 on Dec 11,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  LED_BLINK_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" LED_BLINK_vlg_tst 
+# Start time: 12:36:37 on Dec 11,2018
+# Loading work.LED_BLINK_vlg_tst
+# Loading work.LED_BLINK
+# ** Error: (vsim-3389) D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt(40): Port 'cnt' not found in the connected module (4th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /LED_BLINK_vlg_tst/i1 File: D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v
+# ** Fatal: (vsim-3365) D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/simulation/modelsim/LED_BLINK.vt(40): Too many port connections. Expected 3, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /LED_BLINK_vlg_tst/i1 File: D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/AC606_LED_BLINK/LED_BLINK.v
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./LED_BLINK_run_msim_rtl_verilog.do PAUSED at line 12
+# End time: 12:36:48 on Dec 11,2018, Elapsed time: 0:00:11
+# Errors: 2, Warnings: 0
