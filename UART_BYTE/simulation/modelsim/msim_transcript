@@ -57,3 +57,5 @@ run -all
 # ** Note: $stop    : D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt(55)
 #    Time: 375180 ps  Iteration: 0  Instance: /UART_BYTE_vlg_tst
 # Break in Module UART_BYTE_vlg_tst at D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt line 55
+# End time: 19:54:09 on Dec 13,2018, Elapsed time: 0:14:48
+# Errors: 0, Warnings: 0
