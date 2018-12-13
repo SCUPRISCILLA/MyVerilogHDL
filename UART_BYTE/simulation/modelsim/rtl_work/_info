@@ -1,0 +1,56 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim
+vUART_BYTE
+Z1 !s110 1544701160
+!i10b 1
+!s100 2TAnZ7i^Cff93D6k308fZ3
+I@dnF_>VaVmA:kV_lNPBQM1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1544700526
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1544701160.000000
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v|
+!i113 1
+Z5 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE
+Z6 tCvgOpt 0
+n@u@a@r@t_@b@y@t@e
+vUART_BYTE_vlg_tst
+R1
+!i10b 1
+!s100 gB[=YD:oa3Df0baU`z;382
+IAzdzhI:<I^BXQJ0kG_5Un3
+R2
+R0
+w1544701098
+8D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt
+FD:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim|D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim
+R6
+n@u@a@r@t_@b@y@t@e_vlg_tst

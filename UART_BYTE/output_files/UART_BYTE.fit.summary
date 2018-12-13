@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Dec 13 19:38:55 2018
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : UART_BYTE
+Top-level Entity Name : UART_BYTE
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 56 / 6,272 ( < 1 % )
+    Total combinational functions : 51 / 6,272 ( < 1 % )
+    Dedicated logic registers : 40 / 6,272 ( < 1 % )
+Total registers : 40
+Total pins : 17 / 92 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

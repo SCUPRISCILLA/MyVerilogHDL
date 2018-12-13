@@ -1,0 +1,61 @@
+`timescale 1 ps/ 1 ps
+`define clock_period 20
+module UART_BYTE_vlg_tst();
+	reg [2:0] baud_set;
+	reg clk;
+	reg [7:0] data_byte;
+	reg rst_n;
+	reg send_en;
+															  
+	wire rs232_tx;
+	wire tx_done;
+	wire uart_state;
+									 
+	UART_BYTE i1 (
+		.baud_set(baud_set),
+		.clk(clk),
+		.data_byte(data_byte),
+		.rs232_tx(rs232_tx),
+		.rst_n(rst_n),
+		.send_en(send_en),
+		.tx_done(tx_done),
+		.uart_state(uart_state)
+	);
+	
+	initial clk = 1;
+	always #(`clock_period/2) clk = ~clk;
+	
+	initial 
+	begin
+		rst_n = 1'b0;
+		data_byte = 8'd0;
+		send_en = 1'b0;
+		baud_set = 3'd4;
+		#(`clock_period*20+1);
+		rst_n = 1'b1;
+		
+		#(`clock_period*50);
+		data_byte = 8'b10101100;
+		send_en = 1'b1;
+		
+		#(`clock_period);
+		send_en = 1'b0;
+		
+		@(posedge tx_done)  //等待完成
+		
+		#(`clock_period*5000)  //重新发送
+		data_byte = 8'b11110000;
+		send_en = 1'b1;
+		
+		#(`clock_period);
+		send_en = 1'b0;
+		
+		@(posedge tx_done)
+		#(`clock_period*5000)
+		$stop;
+	end
+			
+			
+                                                 
+endmodule
+

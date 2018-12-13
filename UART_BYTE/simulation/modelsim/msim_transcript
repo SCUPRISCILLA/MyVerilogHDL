@@ -1,0 +1,59 @@
+# Reading D:/APPLICATION/FPGA_LITE/modelsim_ase/tcl/vsim/pref.tcl
+# do UART_BYTE_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/APPLICATION/FPGA_LITE/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE {D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:20 on Dec 13,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE" D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/UART_BYTE.v 
+# -- Compiling module UART_BYTE
+# 
+# Top level modules:
+# 	UART_BYTE
+# End time: 19:39:20 on Dec 13,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim {D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 19:39:20 on Dec 13,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim" D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt 
+# -- Compiling module UART_BYTE_vlg_tst
+# 
+# Top level modules:
+# 	UART_BYTE_vlg_tst
+# End time: 19:39:20 on Dec 13,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  UART_BYTE_vlg_tst
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" UART_BYTE_vlg_tst 
+# Start time: 19:39:21 on Dec 13,2018
+# Loading work.UART_BYTE_vlg_tst
+# Loading work.UART_BYTE
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt(55)
+#    Time: 375180 ps  Iteration: 0  Instance: /UART_BYTE_vlg_tst
+# Break in Module UART_BYTE_vlg_tst at D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt line 55
+add wave -position insertpoint  \
+sim:/UART_BYTE_vlg_tst/i1/bps_clk
+restart
+run -all
+# GetModuleFileName: 找不到指定的模块。
+# 
+# 
+# ** Note: $stop    : D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt(55)
+#    Time: 375180 ps  Iteration: 0  Instance: /UART_BYTE_vlg_tst
+# Break in Module UART_BYTE_vlg_tst at D:/MyWorkSpace/CodeProject/FPGA/MyVerilogHDL/UART_BYTE/simulation/modelsim/UART_BYTE.vt line 55

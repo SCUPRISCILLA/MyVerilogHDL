@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "rs232_tx",
+					"strict" : false
+				},
+				{
+					"name" : "tx_done",
+					"strict" : false
+				},
+				{
+					"name" : "uart_state",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "send_en",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_byte[5]",
+					"strict" : false
+				},
+				{
+					"name" : "baud_set[0]",
+					"strict" : false
+				},
+				{
+					"name" : "baud_set[1]",
+					"strict" : false
+				},
+				{
+					"name" : "baud_set[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
